@@ -1,0 +1,47 @@
+/* components/AdmissionsPage.css */
+
+.admissions-page {
+  padding: 50px;
+  background-color: #f5f5f5; /* Light background color */
+  text-align: center;
+}
+
+.admissions-header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #007bff; /* Bootstrap primary color */
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.download-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
