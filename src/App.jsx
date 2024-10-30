@@ -1,21 +1,24 @@
-// src/App.jsx
+// App.jsx
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home.jsx'; // Updated import
-import About from './pages/About.jsx'; // Updated import
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage'; // Assuming you will create this next
+import AdmissionsPage from './components/AdmissionsPage'; // Assuming you will create this next
+import ContactPage from './components/ContactPage'; // Assuming you will create this next
+import './App.css'; // Create this for global styles
 
 const App = () => {
-    return (
-        <Router>
-            <div>
-                <h1>Tommie Fulp Adventist Academy & Junior High School</h1>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                </Routes>
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/admissions" element={<AdmissionsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
