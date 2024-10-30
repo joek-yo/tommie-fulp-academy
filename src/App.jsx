@@ -3,10 +3,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage'; // Assuming you will create this next
-import AdmissionsPage from './components/AdmissionsPage'; // Assuming you will create this next
-import ContactPage from './components/ContactPage'; // Assuming you will create this next
-import './App.css'; // Create this for global styles
+import AboutPage from './components/AboutPage'; 
+import AdmissionsPage from './components/AdmissionsPage'; 
+import ContactPage from './components/ContactPage'; 
+import './App.css'; // For global styles
 
 const App = () => {
   return (
